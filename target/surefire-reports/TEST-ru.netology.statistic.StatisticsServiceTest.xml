@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="MaxServiceTest" time="0.11" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ru.netology.statistic.StatisticsServiceTest" time="0.355" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.specification.version" value="11"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1251"/>
-    <property name="java.class.path" value="C:\Users\Айбулат\Desktop\QA\HW\Java\9. Integation\integr\target\test-classes;C:\Users\Айбулат\Desktop\QA\HW\Java\9. Integation\integr\target\classes;C:\Users\Айбулат\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.0\junit-jupiter-5.7.0.jar;C:\Users\Айбулат\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\Айбулат\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Айбулат\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Айбулат\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\Айбулат\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.0\junit-jupiter-params-5.7.0.jar;C:\Users\Айбулат\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\Айбулат\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;"/>
+    <property name="java.class.path" value="C:\Users\Айбулат\Desktop\QA\HW\Java\integr\integr2\target\test-classes;C:\Users\Айбулат\Desktop\QA\HW\Java\integr\integr2\target\classes;C:\Users\Айбулат\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.2\junit-jupiter-5.9.2.jar;C:\Users\Айбулат\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\Айбулат\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Айбулат\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\Айбулат\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Айбулат\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar;C:\Users\Айбулат\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\Айбулат\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;"/>
     <property name="java.vm.vendor" value="Eclipse Adoptium"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -17,9 +17,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-11.0.17.8-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\769F~1\AppData\Local\Temp\surefire2610013145850995529\surefirebooter12890652307743632840.jar C:\Users\Айбулат\AppData\Local\Temp\surefire2610013145850995529 2023-03-18T13-09-17_171-jvmRun1 surefire10416726934345049506tmp surefire_047755293624978264tmp"/>
+    <property name="sun.java.command" value="C:\Users\769F~1\AppData\Local\Temp\surefire11166689627827680483\surefirebooter6628228440928113420.jar C:\Users\Айбулат\AppData\Local\Temp\surefire11166689627827680483 2023-03-18T15-27-45_444-jvmRun1 surefire13645191913177494828tmp surefire_09126524101525868093tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\Айбулат\Desktop\QA\HW\Java\9. Integation\integr\target\test-classes;C:\Users\Айбулат\Desktop\QA\HW\Java\9. Integation\integr\target\classes;C:\Users\Айбулат\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.0\junit-jupiter-5.7.0.jar;C:\Users\Айбулат\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\Айбулат\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Айбулат\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Айбулат\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\Айбулат\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.0\junit-jupiter-params-5.7.0.jar;C:\Users\Айбулат\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\Айбулат\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\Айбулат\Desktop\QA\HW\Java\integr\integr2\target\test-classes;C:\Users\Айбулат\Desktop\QA\HW\Java\integr\integr2\target\classes;C:\Users\Айбулат\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.2\junit-jupiter-5.9.2.jar;C:\Users\Айбулат\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\Айбулат\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Айбулат\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\Айбулат\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Айбулат\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar;C:\Users\Айбулат\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\Айбулат\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Айбулат"/>
     <property name="user.language" value="ru"/>
@@ -27,13 +27,13 @@
     <property name="java.version.date" value="2022-10-18"/>
     <property name="java.home" value="C:\Program Files\Eclipse Adoptium\jdk-11.0.17.8-hotspot"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="C:\Users\Айбулат\Desktop\QA\HW\Java\9. Integation\integr"/>
+    <property name="basedir" value="C:\Users\Айбулат\Desktop\QA\HW\Java\integr\integr2"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\769F~1\AppData\Local\Temp\surefire2610013145850995529\surefirebooter12890652307743632840.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\769F~1\AppData\Local\Temp\surefire11166689627827680483\surefirebooter6628228440928113420.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.17+8"/>
@@ -49,7 +49,7 @@
     <property name="java.io.tmpdir" value="C:\Users\769F~1\AppData\Local\Temp\"/>
     <property name="idea.version" value="2022.3.1"/>
     <property name="java.version" value="11.0.17"/>
-    <property name="user.dir" value="C:\Users\Айбулат\Desktop\QA\HW\Java\9. Integation\integr"/>
+    <property name="user.dir" value="C:\Users\Айбулат\Desktop\QA\HW\Java\integr\integr2"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
@@ -61,5 +61,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="shouldFindMax" classname="MaxServiceTest" time="0.071"/>
+  <testcase name="findMax" classname="ru.netology.statistic.StatisticsServiceTest" time="0.223"/>
 </testsuite>
